@@ -3,22 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.1fa5801f.css" />
+    <link rel="stylesheet" href="./index.24802c3d.css" />
     <script type="module" src="./index.7bc10b4b.js"></script>
-    <script src="./index.317c722e.js"></script>
+    <script src="./index.77955271.js"></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="mainPage">
+      <div class="title"><h1 style="color: #d90429">PROTOTIPO FIABA</h1></div>
+      <h3 style="color: #2b2d42; text-align: center">
+        Benvenuto, leggi le instruzioni attentamente per avviare l'esperienza
+        virtuale.
+      </h3>
+      <h3 style="color: #2b2d42; text-align: center">
+        Osserva il filmato iniziale e muovi la testa per visionare l'ambiente
+        circostante.
+      </h3>
+      <h3 style="color: #2b2d42; text-align: center">
+        Successivamente ascolta il discorso del personaggio.
+      </h3>
+      <h3 style="color: #2b2d42; text-align: center">
+        Potrai poi muoverti nella mappa fissando con il pallino al centro dello
+        schermo, i cilindri blu.
+      </h3>
+      <h3 style="color: #2b2d42; text-align: center">
+        Aspetta il caricamento del livello, ruota il telefono in posizione
+        orizzontale, e poi premi il pulsante INIZIA per avviare l'esperienza.
+      </h3>
+      <h3 style="color: #2b2d42; text-align: center">
+        É necessario l'uso di un Google Cardboard, e se possibile, mantenere il
+        dispositivo in carica durante l'esperienza.
+      </h3>
+      <button
+        onclick="if (game.ready){game.start(); document.getElementsByClassName('start')[0].style.display = 'none'; document.getElementsByClassName('mainPage')[0].style.display = 'none'; /* game.VRButton.click() */}"
+        class="start"
+      >
+        CARICAMENTO
+      </button>
+      <h3 style="color: #2b2d42; text-align: center">
+        Video esperienza completa: https://youtu.be/gK4TzDSClpo
+      </h3>
+    </div>
     <script src="./index.3e8ca064.js"></script>
-    <button
-      onclick="game.start(); document.getElementsByClassName('start')[0].style.display = 'none'"
-      class="start"
-    >
-      Benvenuto, per iniziare tocca questo messaggio, poi clicca su ENTER VR.
-      <br />
-      Potrai muovere la testa e osservare l'ambiente circostante. <br />Dopo il
-      filmato inizale, fissa con il cerchio al centro dello schermo, uno dei
-      cilindri blu per muoverti nella mappa.
-    </button>
   </body>
 </html>
